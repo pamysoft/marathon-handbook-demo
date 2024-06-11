@@ -1,0 +1,22 @@
+body {
+    background: #D9D4C7;
+    font-family: "Archivo", sans-serif;
+}
+.main-menu ul {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: right;
+}
+.point {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.point span {
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+}

@@ -1,0 +1,21 @@
+.two-column-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.two-column-block .left-column, .two-column-block .right-column {
+    width: 48%;
+}
+.two-column-block .block-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+.two-column-block .block-content h2, 
+.two-column-block .block-content h3 {
+    color: #333;
+}
+.two-column-block .block-content p {
+    color: #666;
+}
